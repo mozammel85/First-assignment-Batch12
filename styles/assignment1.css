@@ -1,5 +1,8 @@
 .bgcolor{
-    background-color: lightgrey;
+    background-color: #fcfafa;
+    width: 1440px;
+    
+    
 }
 nav ul{
     display: flex;
@@ -33,8 +36,19 @@ border: none;
 width: 174px;
 height: 48px;
 text-align: justify;
-margin-bottom: 200px;
-margin-left: 700px;
+/* margin-bottom: 200px;
+margin-left: 700px; */
+}
+.button3{
+background-color: #4E47FF;
+color: white;
+font-weight: bold;
+padding: 12px 36px;
+border-radius: 10px;
+border: none;
+width: 229px;
+height: 48px;
+text-align: justify;
 }
 nav ul li{
     list-style: none;
@@ -49,7 +63,10 @@ nav li a{
 
 }
 .banner{
-        
+    
+}
+.banner button{
+  
 }
 div h3{
     font-size: 65px;
@@ -61,3 +78,35 @@ div h3{
     margin-right: auto;
     width: 905px;
 }
+.banner-content{
+    font-size: 42px;
+    font-weight: bold;
+    max-width: 1140px;
+    padding-top: 30px;
+    /* text-align: center; */
+
+    /* margin-top: 158px;
+    margin-bottom: 37px;
+    margin-left: auto;
+    margin-right: auto; */
+    width: 905px;
+}
+.banner2{
+    display: flex;
+    margin-top: 70px;
+
+}
+.banner-description{
+font-size: 24px;
+color: #252432;
+width: 517px;
+/* height: 230px; */
+}
+.banner-pic{
+    width: 480px;
+    height: 328px; 
+    border-radius: 48px;
+}
+
+ 
+
