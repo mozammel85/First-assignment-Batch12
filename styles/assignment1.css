@@ -108,8 +108,6 @@ nav li a{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-
-
 }
 .banner-description{
 font-size: 24px;
@@ -121,53 +119,179 @@ width: 517px;
     height: 328px; 
     border-radius: 48px;
 }
-.user-section-bg{
+.users-section-bg{
     border-radius: 24px;
-    background: rgba(78, 71, 255, 0.1);
+    /* background:  */
     align-items: center;
     justify-content: center;
-    max-width: 1140px;
+    max-width: 1440px;
     height: 306px;
-    margin: 50px 50px;
-}
+    background-color:rgba(78, 71, 255, 0.1);
+    flex-direction: column;
+    margin-top: 116px;
+    margin-left: 141px;
+    margin-right: 149px;
+    text-align: center;
+    font-size: 38px;
+    padding: 50px;
+    }
+    /* .user-section-overall-style{ */
+        margin: 50px 80px 50px 80px;
+        gap: 40px;
+        align-items: center;
+    }
 .users-section-hstyle{
     font-size: 38px;
     font-weight: bold;
     text-align: center;
-    padding: 0px 100px;
+    vertical-align: bottom;
+    margin-top: 166px;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
 } 
-.PU-descriptions{
+.PU-descriptions{ 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 40px 0px;
-
-    /* justify-items: auto; */
-    /* margin-top: auto; */
+    vertical-align:bottom;
+    padding-top: 40px;
+    gap: 158px;
     padding: 10px;
 }
 .font-style{
     font-size: 20px;
-    font-weight: normal;
-
+    font-weight: 400;
 }
-.font-color{
+.font-color{ 
     color: #4E47FF;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
 }
-.PU-description{
-    font-size: 80px;
-    font-weight: bolder;
-    margin-top: auto;
-    gap: 158;
-    margin: 40px 0px;
-    align-items: center;
-    justify-content: center;
-    padding: 0px;
+/* .PU-description{ */ */
+padding-bottom: 16px;
 }
 main{ 
     max-width: 1140px;
     margin-top: 130px;
     margin-bottom: 130px;
 }
+/* User review section */
+.User-review-section{
+    height: 342px;
+    width: 1140px;
+    margin-top: 137px;
+    margin-left: 151px;
+    margin-right: 149px;
+}
+.user-review-title{
+    font-size: 42px;
+    text-align: center;
+    font-weight: 700;
+}
+.reviwer{
+    display: flex;
+    /* justify-content: space-around; */
+    /* gap: 50px; */
+    
+}
+.Review-content{
+padding: 20px;
+box-shadow: 1px rgba(255, 255, 255, 0.053)
+}
+.review-conten-heading{
+font-size: 24px;
+font-weight: 600;
+}
+.reviwer-text{
+    font-size: 16px;
+    font-weight: 400;
+}
+.reviwer-name{
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Input Section */
+.Input-section{
+    display: flex;
+    /* justify-content: space-around; */
+    width: 1140px;
+    height: 632px;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-right: 150px;  
+}
+.input-title{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    padding: 71px 0px;
+    align-items: center;
+    margin: 0px 230px;
+
+}
+.input-style{
+    width: 300px;
+    height: 20px;
+    padding: 20px 32px 20px 32px;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px 0px;
+    
+}
+.input-Message-style{ 
+    width: 360px;
+    height: 100px;
+    border-radius: 10px;
+}
+.button-style{
+    width: 365px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(78, 71, 255);
+    text-emphasis-color: rgb(255, 255, 255)
+}
+.Label-style{
+    font-size: 18px;
+    font-weight: 500;
+}
+/* Footer section start */
+.Footer-section{
+    width: 1440px;
+    height: 428px;
+    margin: 104px 455px 103px 454px;
+    background-color: rgb(255, 255, 255);
+}
+.Footer-style{
+    margin: 104px 455px 103px 454px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20;
+    justify-content: space-around;
+}
+.logo-style{
+    font-size: 100px;
+    font-weight: 900px;
+    text-align: center;
+    color: rgb(78, 71, 255);
+    padding-left: 0px 56px 120px 120px;
+}
+.footer-p.style{
+justify-content: center;
+align-items: center;
+font-size: 16px;
+font-weight: 400px;
+text-align: center;
+margin: 8px 0px;
+color: rgb(137, 135, 161);
+}
+.Iportant-link{
+    justify-content: space-around;
+    gap: 48px;
+    text-decoration: none;
+}
+    
 
