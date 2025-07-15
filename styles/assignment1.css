@@ -19,15 +19,16 @@ padding: 12px 36px;
 border-radius: 10px;
 border: none;
 }
+.btn-primary:hover{
+    color: wheat;
+}
 .header{
     background-image: url('../Assets/Hero-bg.png') ;
     max-width: 1440;
     height: 690px;
     margin: 0 auto;
     padding: 0px 0px 200px 0px;
-    align-items: center;
-    
-    
+    align-items: center;    
 }
 .button2{
 background-color: #4E47FF;
@@ -43,8 +44,9 @@ height: 48px;
 text-align: justify;
 flex-direction: row;
 margin-left: 633px;
-/* margin-bottom: 200px;
-margin-left: 700px; */
+}
+.button2:hover{
+    color: wheat;
 }
 .button3{
 background-color: #4E47FF;
@@ -58,6 +60,9 @@ height: 48px;
 text-align: justify;
 
 }
+.button3:hover{
+    color: wheat;
+}
 nav ul li{
     list-style: none;
 }
@@ -69,11 +74,8 @@ nav li a{
    color: #4E47FF; 
    font-weight: bold;
    flex-direction: column;
-
 }
 
-.banner button{  */
-}
 .header-content{ 
     font-size: 65px;
     font-weight: bold;
@@ -83,21 +85,12 @@ nav li a{
     margin-right: auto;
     width: 905px;
     justify-content: center;
-    align-items: center;
-    
-    
+    align-items: center; 
 }
 .banner-content h4{
     font-size: 42px;
     font-weight: 700;
-    /* max-width: 1140px; */
     padding-top: 30px;
-    /* text-align: center; */
-
-    /* margin-top: 158px;
-    margin-bottom: 37px;
-    margin-left: auto;
-    margin-right: auto; */
     width: 905px;
 }
 /* banner-2 */
@@ -170,9 +163,7 @@ width: 517px;
     font-weight: bold;
     text-align: center;
 }
-/* .PU-description{ */ */
-padding-bottom: 16px;
-}
+
 main{ 
     max-width: 1140px;
     margin-top: 130px;
@@ -192,10 +183,7 @@ main{
     font-weight: 700;
 }
 .reviwer{
-    display: flex;
-    /* justify-content: space-around; */
-    /* gap: 50px; */
-    
+    display: flex;  
 }
 .Review-content{
 padding: 20px;
@@ -216,7 +204,6 @@ font-weight: 600;
 /* Input Section */
 .Input-section{
     display: flex;
-    /* justify-content: space-around; */
     width: 1140px;
     height: 632px;
     align-items: center;
@@ -249,11 +236,16 @@ font-weight: 600;
 }
 .button-style{
     width: 365px;
-    height: 60px;
+    height: 50px;
     border-radius: 10px;
-    background-color: rgb(78, 71, 255);
-    text-emphasis-color: rgb(255, 255, 255)
+    background-color: rgb(78, 71, 255); */
+    justify-items: center;
+    text-shadow: white;
 }
+.button-style:hover{
+color: white;
+}
+
 .Label-style{
     font-size: 18px;
     font-weight: 500;
