@@ -19,8 +19,8 @@ padding: 12px 36px;
 border-radius: 10px;
 border: none;
 }
-.btn-primary:hover{
-    color: wheat;
+/* .btn-primary:hover{
+    color: wheat; */
 }
 .header{
     background-image: url('../Assets/Hero-bg.png') ;
